@@ -8,7 +8,7 @@ function Hero() {
       style={{ backgroundImage: `url(${hero})` }}
     >
       <div
-        className="w-[70%] h-[500px] bg-grey mt-16"
+        className="mx-w-[800px] bg-grey mt-16 w-full mx-auto h-screen "
         style={{ fontFamily: "Montserrat" }}
       >
         <div className="font-bold text-6xl text-[#31416C] text-center my-20">
@@ -18,7 +18,7 @@ function Hero() {
         <div className="text-[#31416C] text-center my-4">
           Jobs and Job search. Find jobs in global. Executive Jobs and work.
         </div>
-        <div className="flex flex-row gap-x-2 justify-center py-20">
+        <div className="p-4 lg:flex flex-row gap-x-2 justify-center py-20">
           <div className="flex w-72 flex-col gap-6">
             <form>
               <label
