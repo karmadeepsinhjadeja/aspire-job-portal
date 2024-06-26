@@ -8,17 +8,17 @@ function Hero() {
       style={{ backgroundImage: `url(${hero})` }}
     >
       <div
-        className="mx-w-[800px] bg-grey mt-16 w-full mx-auto h-screen "
+        className="mx-w-[800px] bg-grey mt-16 w-full mx-auto h-screen"
         style={{ fontFamily: "Montserrat" }}
       >
-        <div className="font-bold text-6xl text-[#31416C] text-center my-20">
+        <div className="font-bold text-6xl text-[#31416C] text-center my-20 lg:text-6xl">
           Find Your Perfect <br />
           Job Match
         </div>
         <div className="text-[#31416C] text-center my-4">
           Jobs and Job search. Find jobs in global. Executive Jobs and work.
         </div>
-        <div className="p-4 lg:flex flex-row gap-x-2 justify-center py-20">
+        <div className="p-4 text-center  lg:flex flex-row gap-x-2 lg:justify-center py-20">
           <div className="flex w-72 flex-col gap-6">
             <form>
               <label
