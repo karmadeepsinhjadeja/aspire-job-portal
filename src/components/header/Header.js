@@ -27,9 +27,10 @@ function Header() {
                 </ul>
             </div>
             <div onClick={handleNav} className="block md:hidden">
-                {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
+                {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
             </div>
-            <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-white pl-8 ease-in-out duration-500" : "fixed left-[-100%] "}>
+            <div className={`fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-white pl-8 ease-in-out duration-500 ${nav? 'md:hidden block':'hidden'}`}> 
+
             <img src={logo} alt="logo" className="h-20  "/>
 
                 <ul className="p-4">
